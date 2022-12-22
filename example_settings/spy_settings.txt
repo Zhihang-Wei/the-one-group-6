@@ -1,0 +1,74 @@
+# Scenario Settings
+Scenario.name = LMU_Spies
+Scenario.endTime = 17000
+Scenario.updateInterval = 0.1
+Scenario.simulateConnections = true
+MovementModel.worldSize = 882, 618
+Events.nrof = 0
+Scenario.nrofHostGroups = 3
+Scenario.name = LMU_Spies-seed-%%MovementModel.rngSeed%%
+MovementModel.rngSeed = [0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19]
+
+# Interface Settings
+Group.interface = if
+if.type = SimpleBroadcastInterface
+if.transmitRange = 10
+if.transmitSpeed = 10
+
+
+# Group Specific Settings
+Group.movementModel = UniMovement
+Group.speed = 1, 1
+Group.wktPath = data/fmi_locations.json
+
+## Spy Group
+Group1.groupID = 1
+Group1.nrofHosts = 30
+Group1.nrofInterfaces = 1
+Group1.interface1 = if
+Group1.router = SpyRouter
+Group1.nmcount = 3,5
+
+## Counter Spy Group
+Group2.groupID = 2
+Group2.nrofHosts = 50
+Group2.nrofInterfaces = 1
+Group2.interface1 = if
+Group2.router = SpyCounterRouter
+
+## Regular Students Group
+Group3.groupID = 3
+Group3.nrofHosts = 400
+Group3.nrofInterfaces = 0
+Group3.router = PassiveRouter
+
+
+# Report Settings
+
+Report.nrofReports = 1
+# length of the warm up period (simulated seconds)
+Report.warmup = 0
+# default directory of reports (can be overridden per Report with output setting)
+Report.reportDir = reports/
+# Report classes to load
+Report.report1 = UniReport
+
+
+# GUI Settings
+GUI.UnderlayImage.fileName = data/FMI_building_v3.png
+GUI.UnderlayImage.offset = 0, 0
+GUI.UnderlayImage.scale = 1
+
+# Agenda specific Settings
+# nHosts has to be adjusted to the further above created number of hosts
+nHosts = 1000
+dayStart = 5
+dayEnd = 22
+meanArrivalTime = 5
+meanStayDuration = 17
+stdArrivalTime = 0
+stdStayDuration = 0
+mensaProbability = 0.5
+shareLeisure = 0.1
+shareLecture = 0.35
+shareTutorial = 0.35

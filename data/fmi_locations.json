@@ -1,0 +1,315 @@
+{
+  "vertices": [
+    {
+      "name" : "library",
+      "locationType" : "STUDY",
+      "limit" : 150,
+      "polygon" : "POLYGON((29 359, 124 374, 111 455, 16 440, 29 359))"
+    },
+    {
+      "name" : "rechnerhalle",
+      "locationType" : "STUDY",
+      "limit" : 150,
+      "polygon" : "POLYGON((309 338, 378 350, 373 380, 304 368, 309 338))"
+    },
+    {
+      "name" : "mensa",
+      "locationType" : "MENSA",
+      "limit" : 1000,
+      "polygon" : "POLYGON((276 429, 299 434, 294 453, 272 448, 276 429))"
+    },
+    {
+      "name" : "terrace",
+      "locationType" : "LEISURE",
+      "limit" : 50,
+      "polygon" : "POLYGON((288 455, 304 458, 297 497, 281 494, 288 455))"
+    },
+    {
+      "name" : "magistrale",
+      "locationType" : "DEFAULT",
+      "limit" : 10000,
+      "polygon" : "POLYGON((171 350, 423 413, 412 461, 159 398, 171 350))"
+    },
+    {
+      "name" : "interims",
+      "locationType" : "LECTURE",
+      "limit" : 150,
+      "polygon" : "POLYGON((470 117, 546 130, 534 200, 458 187, 470 117))"
+    },
+    {
+      "name" : "volleyball",
+      "locationType" : "LEISURE",
+      "limit" : 15,
+      "polygon" : "POLYGON((241 92, 300 102, 290 160, 230 150, 241 92))"
+    },
+    {
+      "name" : "basketball",
+      "locationType" : "LEISURE",
+      "limit" : 25,
+      "polygon" : "POLYGON((322 83, 367 90, 354 164, 309 156, 322 83))"
+    },
+    {
+      "name" : "parking",
+      "locationType" : "ENTRANCE",
+      "limit" : 200,
+      "polygon" : "POLYGON((602 427, 681 446, 638 617, 555 617, 602 427))"
+    },
+    {
+      "name" : "O_4",
+      "locationType" : "TUTORIAL",
+      "limit" : 30,
+      "polygon" : "POLYGON((459 522, 490 527, 469 609, 439 601, 459 522))"
+    },
+    {
+      "name" : "O_5",
+      "locationType" : "TUTORIAL",
+      "limit" : 30,
+      "polygon" : "POLYGON((390 250, 422 257, 408 338, 377 331, 390 250))"
+    },
+    {
+      "name" : "O_6",
+      "locationType" : "TUTORIAL",
+      "limit" : 30,
+      "polygon" : "POLYGON((380 509, 410 518, 390 590, 360 580, 380 509))"
+    },
+    {
+      "name" : "O_7",
+      "locationType" : "TUTORIAL",
+      "limit" : 30,
+      "polygon" : "POLYGON((304 235, 337 241, 323 312, 290 307, 304 235))"
+    },
+    {
+      "name" : "O_8",
+      "locationType" : "TUTORIAL",
+      "limit" : 30,
+      "polygon" : "POLYGON((299 494, 333 495, 313 567, 282 558, 299 494))"
+    },
+    {
+      "name" : "O_9",
+      "locationType" : "TUTORIAL",
+      "limit" : 30,
+      "polygon" : "POLYGON((219 222, 251 227, 237 307, 206 302, 219 222))"
+    },
+    {
+      "name" : "O_10",
+      "locationType" : "TUTORIAL",
+      "limit" : 30,
+      "polygon" : "POLYGON((224 470, 255 478, 236 546, 205 538, 224 470))"
+    },
+    {
+      "name" : "O_11",
+      "locationType" : "TUTORIAL",
+      "limit" : 30,
+      "polygon" : "POLYGON((134 205, 166 211, 152 291, 121 285, 134 205))"
+    },
+    {
+      "name" : "O_12",
+      "locationType" : "TUTORIAL",
+      "limit" : 30,
+      "polygon" : "POLYGON((146 449, 176 458, 159 525, 128 516, 146 449))"
+    },
+    {
+      "name" : "O_13",
+      "locationType" : "TUTORIAL",
+      "limit" : 30,
+      "polygon" : "POLYGON((48 191, 80 196, 67 273, 36 266, 48 191))"
+    },
+    {
+      "name" : "metro",
+      "locationType" : "ENTRANCE",
+      "limit" : 500,
+      "polygon" : "POLYGON((816 37, 848 6, 876 36, 846 66, 816 37))"
+    },
+    {
+      "name" : "HS_1",
+      "locationType" : "LECTURE",
+      "limit" : 200,
+      "polygon" : "POLYGON((458 434, 473 406, 505 400, 529 416, 526 444, 503 461, 477 460, 458 434))"
+    },
+    {
+      "name" : "HS_2",
+      "locationType" : "LECTURE",
+      "limit" : 80,
+      "polygon" : "POLYGON((442 484, 456 498, 442 511, 429 497, 442 484))"
+    },
+    {
+      "name" : "HS_3",
+      "locationType" : "LECTURE",
+      "limit" : 80,
+      "polygon" : "POLYGON((364 461, 378 474, 364 488, 351 474, 364 461))"
+    },
+    {
+      "name" : "einhornsee",
+      "locationType" : "LEISURE",
+      "limit" : 15,
+      "polygon" : "POLYGON((470 200, 520 210, 511 236, 465 228, 470 200))"
+    },
+    {
+      "name" : "R_1",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((569 155, 582 168, 569 182, 556 168, 569 155))"
+    },
+    {
+      "name" : "R_2",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((448 355, 458 365, 447 375, 438 365, 448 355))"
+    },
+    {
+      "name" : "R_3",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((440 234, 449 244, 439 254, 429 243, 440 234))"
+    },
+    {
+      "name" : "R_4",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((425 394, 433 402, 425 409, 418 400, 425 394))"
+    },
+    {
+      "name" : "R_5",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((422 424, 438 440, 420 456, 406 440, 422 424))"
+    },
+    {
+      "name" : "R_6",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((465 461, 473 469, 465 476, 458 468, 465 461))"
+    },
+    {
+      "name" : "R_7",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((575 496, 583 504, 575 511, 568 503, 575 496))"
+    },
+    {
+      "name" : "R_8",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((483 493, 494 503, 482 514, 472 503, 483 493))"
+    },
+    {
+      "name" : "R_9",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((405 476, 416 487, 404 498, 394 487, 405 476))"
+    },
+    {
+      "name" : "R_10",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((383 381, 394 391, 383 402, 372 391, 383 381))"
+    },
+    {
+      "name" : "R_11",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((333 403, 350 420, 333 437, 315 419, 333 403))"
+    },
+    {
+      "name" : "R_12",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((324 456, 335 467, 324 478, 313 467, 324 456))"
+    },
+    {
+      "name" : "R_13",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((292 355, 303 366, 292 377, 281 365, 292 355))"
+    },
+    {
+      "name" : "R_14",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((234 375, 251 392, 233 409, 217 391, 234 375))"
+    },
+    {
+      "name" : "R_15",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((247 434, 258 444, 247 456, 236 445, 247 434))"
+    },
+    {
+      "name" : "R_16",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((176 391, 187 400, 176 412, 165 400, 176 391))"
+    },
+    {
+      "name" : "R_17",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((211 333, 222 343, 210 355, 200 344, 211 333))"
+    },
+    {
+      "name" : "R_18",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((126 333, 142 347, 126 364, 111 349, 126 333))"
+    },
+    {
+      "name" : "R_19",
+      "locationType" : "ROUTING",
+      "limit" : 0,
+      "polygon" : "POLYGON((41 311, 52 322, 41 333, 30 323, 41 311))"
+    }
+  ],
+  "edges": [
+    {"first": "magistrale", "second": "R_18"},
+    {"first": "magistrale", "second": "R_14"},
+    {"first": "magistrale", "second": "R_11"},
+    {"first": "magistrale", "second": "R_5"},
+    {"first": "metro", "second": "R_1"},
+    {"first": "R_1", "second": "R_2"},
+    {"first": "R_1", "second": "interims"},
+    {"first": "R_2", "second": "R_3"},
+    {"first": "R_2", "second": "R_4"},
+    {"first": "R_3", "second": "volleyball"},
+    {"first": "R_3", "second": "basketball"},
+    {"first": "R_3", "second": "einhornsee"},
+    {"first": "R_4", "second": "R_5"},
+    {"first": "R_5", "second": "R_6"},
+    {"first": "R_5", "second": "R_9"},
+    {"first": "R_5", "second": "R_10"},
+    {"first": "R_5", "second": "R_11"},
+    {"first": "R_5", "second": "HS_1"},
+    {"first": "R_5", "second": "HS_2"},
+    {"first": "R_5", "second": "HS_3"},
+    {"first": "R_6", "second": "R_7"},
+    {"first": "R_6", "second": "R_8"},
+    {"first": "R_7", "second": "parking"},
+    {"first": "R_8", "second": "O_4"},
+    {"first": "R_9", "second": "O_6"},
+    {"first": "R_10", "second": "O_5"},
+    {"first": "R_10", "second": "R_11"},
+    {"first": "R_11", "second": "R_12"},
+    {"first": "R_11", "second": "R_13"},
+    {"first": "R_11", "second": "R_14"},
+    {"first": "R_11", "second": "terrace"},
+    {"first": "R_11", "second": "mensa"},
+    {"first": "R_11", "second": "rechnerhalle"},
+    {"first": "R_11", "second": "HS_3"},
+    {"first": "R_12", "second": "O_8"},
+    {"first": "R_13", "second": "O_7"},
+    {"first": "R_13", "second": "R_14"},
+    {"first": "R_14", "second": "R_15"},
+    {"first": "R_14", "second": "R_16"},
+    {"first": "R_14", "second": "R_17"},
+    {"first": "R_14", "second": "R_18"},
+    {"first": "R_15", "second": "O_10"},
+    {"first": "R_16", "second": "O_12"},
+    {"first": "R_16", "second": "R_17"},
+    {"first": "R_16", "second": "R_18"},
+    {"first": "R_17", "second": "R_18"},
+    {"first": "R_17", "second": "O_9"},
+    {"first": "R_18", "second": "R_19"},
+    {"first": "R_18", "second": "library"},
+    {"first": "R_18", "second": "O_11"},
+    {"first": "R_19", "second": "O_13"}
+  ]
+}
